@@ -19,7 +19,10 @@
 <body>
 
     <div id="app">
-
+        <h2>To do List</h2>
+        <ul>
+            <li v-for="(todo, index) in todoList">{{todo.text}}</li>
+        </ul>
     </div>
 
     <script src="./script/main.js"></script>
