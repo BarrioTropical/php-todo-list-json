@@ -26,7 +26,7 @@ $tasks = [
 
 <body>
 
-    <form action="" method="post">
+    <form action="newTodo.php" method="post">
         <input type="text" name="todo_name" placeholder="Enter your to do">
         <button>New To do </button>
 
